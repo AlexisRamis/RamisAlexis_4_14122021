@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #1E1E1E;
 }
 
 .d-bloc .a-btn:hover,
@@ -675,7 +675,9 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
+.btn-bcg {
+    background: #303030
+}
 p {
     font-size: 11px;
 }
@@ -756,7 +758,9 @@ h4 {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
-
+.black{
+    color: black!important;
+}
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -769,11 +773,21 @@ h4 {
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
+.bgc-dark-slate-shade{
+    background-color: #f3976c;
+}
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+.tangerine-bgc {
+    background-color: #f3976c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bloc-size {
+    width: 80%;
+    margin: auto;
+}
 .tc-white {
     color: #F3976C!important;
 }
